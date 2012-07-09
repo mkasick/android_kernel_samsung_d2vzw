@@ -4,11 +4,7 @@ To build source-based kernel:
 
    export CROSS_COMPILE=../cm/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin/arm-eabi-
 
-2. Build kernel, for d2spr:
-
-   make m2_spr_defconfig && make -j 4
-
-   Or, for d2vzw:
+2. Build kernel:
 
    make m2_vzw_defconfig && make -j 4
 
